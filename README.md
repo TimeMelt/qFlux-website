@@ -1,2 +1,2 @@
 # qFlux-website
-website for qFlux
+This is the source code for the qFlux website
