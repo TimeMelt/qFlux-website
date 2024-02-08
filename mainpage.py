@@ -62,7 +62,7 @@ with mainpanel:
 
     col1.subheader("GitHub Repos")
     col1.page_link("https://github.com/TimeMelt/qash-qkdc", label="Qash Jupyter Notebook", icon=notebook_emoji)
-    col1.page_link("https://github.com/TimeMelt/qash-qkdc-stremlit", label="Qash Ui Repo", icon=book_emoji)
+    col1.page_link("https://github.com/TimeMelt/qash-qkdc-streamlit", label="Qash Ui Repo", icon=book_emoji)
     
     col2.header("Mission", divider="rainbow")
     col2.subheader("Core Values")
