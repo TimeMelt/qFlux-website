@@ -62,7 +62,8 @@ with mainpanel:
     st.header("TimeMelt's Quantum Software Page", divider='rainbow')
     col1.header("Links & Pages", divider="rainbow")
     col1.subheader("Project Pages")
-    col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash Website (itch.io)", icon=globe_emoji)
+    col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash Webpage (itch.io)", icon=globe_emoji)
+    col1.page_link("https://timemelt.itch.io/qashchain", label="QashChain Webpage (itch.io)", icon=globe_emoji)
 
     col1.subheader("GitHub Repos")
     col1.page_link("https://github.com/TimeMelt/qash-qkdc", label="Qash Jupyter Notebook", icon=notebook_emoji)
