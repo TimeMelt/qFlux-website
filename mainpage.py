@@ -4,7 +4,7 @@ logo = "qflux-logo.png"
 
 st.set_page_config(
     layout="wide",
-    page_title="qFlux",
+    page_title="TMQU",
     page_icon=logo
 )
 
@@ -41,21 +41,25 @@ goals_desc = '''
 software_products_live_desc = '''
 - Qash-QKDC: pennylane hashing (superconductor, photonic)
 - Qash Demo Ui: ui demo for Qash-QKDC
+- QashChain: quantum powered blockchain ledger (basic implementation)
 '''
 software_products_not_live_desc = '''
-- QashChain: quantum powered blockchain ledger
 - QashChain Ui: demo ui for using QashChain
 - GausQash: strawberryfields hashing (xanadu/photonic)
+- QashChain features:
+    - consensus algorithm
+    - basic node communication protocol
+    - smart contracts
 '''
 
 sidebar.header("Apps", divider='rainbow')
 sidebar.page_link("https://qkdc-ui.streamlit.app/", label="Qash Demo", icon=light_emoji)
-sidebar.page_link("https://github.com/TimeMelt/qashchain", label="QashChain", icon=caution_emoji)
+sidebar.page_link("https://github.com/TimeMelt/qashchain", label="QashChain Demo", icon=caution_emoji, disabled=True)
 sidebar.header("Donate/Support", divider='rainbow')
-sidebar.page_link("https://buy.stripe.com/3cs2ba0U80as2AwcMM", label="Stripe Payment", icon=dollar_emoji)
+sidebar.page_link("https://buy.stripe.com/fZe4i46ht5mEfMkeUY", label="PickYourAmount", icon=dollar_emoji)
 
 with mainpanel:
-    st.header("qFlux: Quantum Software", divider='rainbow')
+    st.header("TimeMelt's Quantum Software Page", divider='rainbow')
     col1.header("Links & Pages", divider="rainbow")
     col1.subheader("Project Pages")
     col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash Website (itch.io)", icon=globe_emoji)
@@ -63,6 +67,7 @@ with mainpanel:
     col1.subheader("GitHub Repos")
     col1.page_link("https://github.com/TimeMelt/qash-qkdc", label="Qash Jupyter Notebook", icon=notebook_emoji)
     col1.page_link("https://github.com/TimeMelt/qash-qkdc-streamlit", label="Qash Ui Repo", icon=book_emoji)
+    col1.page_link("https://github.com/TimeMelt/qashchain", label="QashChain Jupyter Notebook", icon=notebook_emoji)
     
     col2.header("Mission", divider="rainbow")
     col2.subheader("Core Values")
@@ -71,15 +76,15 @@ with mainpanel:
     col2.markdown(goals_desc)
 
     col3.header("Software Products", divider='rainbow')
-    col3.subheader("Released")
+    col3.subheader("Available Now!")
     col3.markdown(software_products_live_desc)
-    col3.subheader("Under Development")
+    col3.subheader("Future Plans...")
     col3.markdown(software_products_not_live_desc)
     
-    st.caption("quantum research & development firm")
+    st.caption("quantum research & development info")
 
-bottompanel.header("Contact Us", divider='rainbow')
-bottompanel.caption("fill out the google form from the link below and we will get back to you shortly.")
+bottompanel.header("Contact", divider='rainbow')
+bottompanel.caption("fill out the google form from the link below and someone will get back to you shortly.")
 bottompanel.page_link("https://docs.google.com/forms/d/e/1FAIpQLSchyxvYEiAG1yMxmml7EyZUQgN_kD1P8ak3ndCt2qt85-2hwA/viewform?usp=sf_link", label="Contact Form", icon=memo_emoji)
 bottompanel.divider()
-creditspanel.caption("Founded by TimeMelt")
+creditspanel.caption("Jean-Paul Stevens (aka. TimeMelt)")
