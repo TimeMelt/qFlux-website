@@ -42,10 +42,10 @@ software_products_live_desc = '''
 - Qash-QKDC: pennylane hashing (superconductor, photonic)
 - Qash Demo Ui: ui demo for Qash-QKDC
 - QashChain: quantum powered blockchain ledger (basic implementation)
+- GausQash: strawberryfields hashing circuit (xanadu/photonic)
 '''
 software_products_not_live_desc = '''
 - QashChain Ui: demo ui for using QashChain
-- GausQash: strawberryfields hashing (xanadu/photonic)
 - QashChain features:
     - consensus algorithm
     - basic node communication protocol
@@ -62,13 +62,15 @@ with mainpanel:
     st.header("TimeMelt's Quantum Software Page", divider='rainbow')
     col1.header("Links & Pages", divider="rainbow")
     col1.subheader("Project Pages")
-    col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash Webpage (itch.io)", icon=globe_emoji)
-    col1.page_link("https://timemelt.itch.io/qashchain", label="QashChain Webpage (itch.io)", icon=globe_emoji)
+    col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash (itch.io)", icon=globe_emoji)
+    col1.page_link("https://timemelt.itch.io/qashchain", label="QashChain (itch.io)", icon=globe_emoji)
+    col1.page_link("https://timemelt.itch.io/GausQash", label="GausQash (itch.io)", icon=globe_emoji)
 
     col1.subheader("GitHub Repos")
     col1.page_link("https://github.com/TimeMelt/qash-qkdc", label="Qash Jupyter Notebook", icon=notebook_emoji)
     col1.page_link("https://github.com/TimeMelt/qash-qkdc-streamlit", label="Qash Ui Repo", icon=book_emoji)
     col1.page_link("https://github.com/TimeMelt/qashchain", label="QashChain Jupyter Notebook", icon=notebook_emoji)
+    col1.page_link("https://github.com/TimeMelt/GausQash", label="GausQash Jupyter Notebook", icon=notebook_emoji)
     
     col2.header("Mission", divider="rainbow")
     col2.subheader("Core Values")
@@ -85,7 +87,7 @@ with mainpanel:
     st.caption("quantum research & development info")
 
 bottompanel.header("Contact", divider='rainbow')
-bottompanel.caption("fill out the google form from the link below and someone will get back to you shortly.")
+bottompanel.caption("fill out the google form below and someone will get back to you shortly.")
 bottompanel.page_link("https://docs.google.com/forms/d/e/1FAIpQLSchyxvYEiAG1yMxmml7EyZUQgN_kD1P8ak3ndCt2qt85-2hwA/viewform?usp=sf_link", label="Contact Form", icon=memo_emoji)
 bottompanel.divider()
 creditspanel.caption("Jean-Paul Stevens (aka. TimeMelt)")
