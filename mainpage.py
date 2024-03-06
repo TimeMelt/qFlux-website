@@ -59,7 +59,7 @@ sidebar.header("Donate/Support", divider='rainbow')
 sidebar.page_link("https://buy.stripe.com/fZe4i46ht5mEfMkeUY", label="PickYourAmount", icon=dollar_emoji)
 
 with mainpanel:
-    st.header("TimeMelt's Quantum Software Page", divider='rainbow')
+    st.header("TimeMelt Quantum", divider='rainbow')
     col1.header("Links & Pages", divider="rainbow")
     col1.subheader("Project Pages")
     col1.page_link("https://timemelt.itch.io/qash-qkdc", label="Qash (itch.io)", icon=globe_emoji)
@@ -84,7 +84,7 @@ with mainpanel:
     col3.subheader("Future Plans...")
     col3.markdown(software_products_not_live_desc)
     
-    st.caption("quantum research & development info")
+    st.caption("quantum research & development")
 
 bottompanel.header("Contact", divider='rainbow')
 bottompanel.caption("fill out the google form below and someone will get back to you shortly.")
