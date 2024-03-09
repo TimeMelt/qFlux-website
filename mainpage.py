@@ -31,12 +31,14 @@ values_desc = '''
 - foster an enviornment of open collaboration and development for quantum technology
 '''
 goals_desc = '''
-- benchmark crytographic security of Qash (quantum key derivation circuits)
-- adapt circuits to other types of quantum processors (trapped-ion, neutral atom, etc.)
-- adapt circuits to work with strawberryfields sdk/xanadu photonic hardware
-- gain access to multiple types of physical, quantum hardware for real world testing and implementation
+- develop new standard for passwordless authentication
+    - password certificates that are truly random
+    - ensure that it is quantum resistant (unlike asymmetric crytography based certificates)
 - develop blockchain based on Qash circuits
     - develop blockchain as a service/digital ledger platform based on Qash software
+- benchmark crytographic security of Qash (quantum key derivation circuits)
+- adapt circuits to other types of quantum processors (trapped-ion, neutral atom, etc.)
+- gain access to multiple types of physical, quantum hardware for real world testing and implementation
 '''
 software_products_live_desc = '''
 - Qash-QKDC: pennylane hashing (superconductor, photonic)
@@ -45,6 +47,9 @@ software_products_live_desc = '''
 - GausQash: strawberryfields hashing circuit (xanadu/photonic)
 '''
 software_products_not_live_desc = '''
+- Qash API:
+    - generate unique keys and hashes 
+    - QPU and simulator support
 - QashChain Ui: demo ui for using QashChain
 - QashChain features:
     - consensus algorithm
