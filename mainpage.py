@@ -31,9 +31,9 @@ values_desc = '''
 - foster an enviornment of open collaboration and development for quantum technology
 '''
 goals_desc = '''
-- develop new standard for passwordless authentication
-    - password certificates that are truly random
-    - ensure that it is quantum resistant (unlike asymmetric crytography based certificates)
+- develop new cryptography standard
+    - key certificates that are truly random
+    - ensure that it is quantum resistant
 - develop blockchain based on Qash circuits
     - develop blockchain as a service/digital ledger platform based on Qash software
 - benchmark crytographic security of Qash (quantum key derivation circuits)
